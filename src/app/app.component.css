@@ -107,3 +107,26 @@
         opacity: 1;
     }
 /* end of nav styles*/
+
+/* hero styles */
+.hero-image {
+    background-image: url("...");
+    height: 100%vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 75px;
+}
+
+.hero-text {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: #42f498;
+    text-shadow: 2px 2px black;
+}
+
+.title {
+  font-size: 200px;
+}
+/* end of hero styles*/
