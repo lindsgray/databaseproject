@@ -6,6 +6,7 @@ export class Movie{
     public review: any;
     public thumbnail: string;
     public trailer: string;
+    public active: boolean;
 
     constructor(){
         this.title = '';
@@ -15,5 +16,6 @@ export class Movie{
         this.review = null;
         this.thumbnail = '';
         this.trailer = '';
+        this.active = false;
     }
 }
